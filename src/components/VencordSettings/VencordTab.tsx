@@ -93,7 +93,7 @@ function VencordSettings() {
         ];
 
     return (
-        <SettingsTab title="Vencord Settings">
+        <SettingsTab title="Kittycord Settings">
             <DonateCard image={donateImage} />
             <Forms.FormSection title="Quick Actions">
                 <Card className={cl("quick-actions-card")}>
@@ -327,4 +327,4 @@ function DonateCard({ image }: DonateCardProps) {
     );
 }
 
-export default wrapTab(VencordSettings, "Vencord Settings");
+export default wrapTab(VencordSettings, "Kittycord Settings");
